@@ -1,0 +1,61 @@
+$font: "Raleway";
+
+*{
+    font-family: $font;
+}
+
+.header{
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+    color: #F1F1F1;
+    h1{
+        font-size: 4rem;
+        position: relative;
+        text-align: center;
+        font-weight: 200;
+        span{
+            font-weight: 600;
+        }
+    }
+    h5{
+        font-size: 1.50rem;
+        position: relative;
+        text-align: center;
+    }
+    P{
+        font-size: 1rem;
+        padding-top: 2rem;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.mision{
+    background: #D1DBBD;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}
+.vision{
+    background: #FCFFF5;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    h1{
+        font-size: 3rem;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+    p{
+        font-size: 1.5rem;
+    }
+}

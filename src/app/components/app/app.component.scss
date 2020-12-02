@@ -1,0 +1,27 @@
+$font: "Raleway";
+
+*{
+    font-family: $font;
+}
+
+nav{
+    .navbar-brand{
+        font-size: 2rem;
+        color: #141E30;
+    }
+    div{
+        .navbar-nav{
+            padding-left: 1rem;
+            a{
+                position: relative;
+                text-transform: uppercase;
+                display: inline-block;
+                font-weight: 650;
+                margin-right: 2rem;
+                text-align: center;
+                color: #141E30;
+                font-size: 1rem;
+            }
+        }
+    }
+}

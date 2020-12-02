@@ -1,0 +1,43 @@
+$font: "Raleway";
+
+*{
+    font-family: $font;
+}
+
+.header{
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 10rem;
+    padding-bottom: 4rem;
+    h1{
+        font-size: 4rem;
+        text-transform: uppercase;
+        font-weight: 800;
+        color: #F1F1F1;
+        position: relative;
+        text-align: center;
+    }
+}
+
+.objetivos{
+    background: #2980b9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #2c3e50, #2980b9);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #2c3e50, #2980b9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: #F1F1F1;
+    padding-top: 1rem;
+    padding-bottom: 10rem;
+    .container{
+        .objetivo{
+            margin-top: 3rem;
+            h2{
+                font-size: 2rem;
+                font-weight: 900;
+                text-transform: uppercase;
+            }
+            P{
+                font-size: 1.25rem;
+            }
+        }
+    }
+}
